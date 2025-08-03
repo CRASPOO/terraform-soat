@@ -19,7 +19,8 @@ variable "tags_prod" {
   default = {
     Name        = "tfstate",
     Environment = "Production",
-    School = "FIAP"
+    School = "FIAP",
+    Year = "2025"
   }
 }
 
