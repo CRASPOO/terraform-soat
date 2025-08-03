@@ -17,8 +17,10 @@ variable "tags_dev" {
 variable "tags_prod" {
   type = map(any)
   default = {
-    Name        = "tfstate"
-    Environment = "Production"
+    Name        = "tfstate",
+    Environment = "Production",
+    School = "FIAP",
+    Year = "2025"
   }
 }
 
